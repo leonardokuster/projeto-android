@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Noto+Sans+JP:wght@300&display=swap');
+
+@font-face {
+    font-family: idroid;
+    src: url(/fontes/idroid.otf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+:root {
+    --cor01: rgb(126, 103, 103);
+}
+
+.cabecalho {
+    background-image: linear-gradient(to bottom, #63bc8a, #13472b 75%);
+    padding-top: 10px;
+}
+
+.titulo-cabecalho {
+    color: white;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 25px;
+    padding-top: 25px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.445);
+}
+
+.paragrafo-cabecalho {
+    color: #adcdbb;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-family: 'Noto Sans JP', sans-serif;
+    max-width: 400px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.445);
+}
+
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 10px 5px 10px;
+    font-weight: bold;
+    background-color: #13472b;
+}
+
+.link-menu {
+    border-radius: 5px;
+    color: rgb(208, 230, 220);
+    padding: 5px 15px;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+.link-menu:hover {
+    background-color: #63bc8a;
+}
+
+
+.principal {
+    background-color: rgb(191, 209, 162);
+    padding-bottom: 30px;
+    box-shadow: inset 0px 2px 10px 0px rgba(0, 0, 0, 0.74);
+}
+
+.artigo {
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 10px 9px 2px rgba(0, 0, 0, 0.317);
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.artigo-titulo {
+    font-family: idroid, sans-serif;
+    font-size: 20px;
+    color: rgb(9, 69, 9);
+    padding: 10px 15px 0px 15px;
+}
+
+.artigo-subtitulo {
+    background-image: linear-gradient(to right, rgb(2, 232, 117) 10%, white 90%);
+    font-family: idroid, sans-serif;
+    font-size: 18px;
+    color: rgb(9, 69, 9);
+    margin: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
+}
+
+.artigo-paragrafo {
+    text-indent: 25px;
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2em;
+}
+
+strong {
+    color: green;
+}
+
+.link-artigo {
+    font-style: bold;
+    color: rgb(9, 69, 9);
+    background-color: rgb(2, 232, 117);
+}
+
+.foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+aside {
+    margin: 20px;
+    background-color: #adcdbb;
+    border-radius: 10px;
+}
+
+
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #13472b;
+    padding: 20px 0px 20px 0px;
+}
+
+.artigo-sub-subtitulo {
+    background-color: rgb(9, 69, 9);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.artigo-paragrafo-box {
+    text-indent: 25px;
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.lista {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+footer {
+    background-color: #13472b;
+    padding: 2px 0px;
+}
+
+.paragrafo-rodape {
+    text-align: center;
+    color: #adcdbb;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+}
+
+.rodape {
+    color: white;
+}
